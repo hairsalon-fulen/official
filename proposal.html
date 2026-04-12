@@ -92,16 +92,6 @@
         </div>
       </section>
 
-      <section class="pt-8 border-t border-slate-100 text-center">
-        <h2 class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6 text-center italic">Proposal Message</h2>
-        <div class="bg-slate-900 text-white p-6 rounded-2xl text-left text-sm relative">
-          <p class="mb-4">〇〇オーナー<br>お疲れ様です！佐浦です。今後の集客強化（AI検索対策）のため、年間1,500円（月125円）だけで済む「お店専用のURL」の取得をご提案させてください！手続き等は私がお引き受けします💪</p>
-          <button onclick="copyMessage()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-xl transition-all active:scale-95 shadow-lg">
-            このメッセージをコピーする
-          </button>
-        </div>
-      </section>
-
     </div>
     
     <div class="bg-slate-50 p-6 text-center">
@@ -110,14 +100,5 @@
       </p>
     </div>
   </div>
-
-  <script>
-    function copyMessage() {
-      const msg = `〇〇オーナー\nお疲れ様です！佐浦です。\n現在、FULEN様のWEBサイトはサーバー代などが「完全無料（0円）」になるよう構築していますが、今後の集客（特に最近のAI検索など）を見据えて、「お店専用のオリジナルURL（独自ドメイン）」の取得をご提案させてください！\n\n● メリット\n1. AI検索で「公式の本店」として高く評価されやすくなります。\n2. fulen.com のようにスッキリしたアドレスになり、お客様の信頼感が増します✨\n\n● 費用について\n今の「月額0円」の仕組みはそのまま活かしますので、追加でかかるのは「1年間で1,500円程度（月125円ほど）」の更新料のみです。\n\n手続きや難しい設定はすべて私がお引き受けします💪\nご検討よろしくお願いいたします！`;
-      navigator.clipboard.writeText(msg).then(() => {
-        alert('メッセージをコピーしました！LINE等に貼り付けてご利用ください。');
-      });
-    }
-  </script>
 </body>
 </html>
