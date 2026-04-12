@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINE公式アカウント運用ガイド</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&family=Noto+Serif+JP:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            /* ★ここをフレンさんのカラーのカラーコード（#から始まる6桁）に変更してください★ */
+            --brand-color: #ffb6c1; /* フレンさんのメインカラー（現在：ライトピンク） */
+            --brand-light: #fff0f5; /* 背景などに使う薄いカラー（現在：ラベンダーブラッシュ） */
+            
+            --bg-color: #fcfbf9;
+            --line-green: #06C755;
+        }
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: var(--bg-color);
+            color: #333;
+        }
+        .font-serif-jp { font-family: 'Noto Serif JP', serif; }
+        .line-border { border-left: 4px solid var(--line-green); }
+        .brand-border { border-left: 4px solid var(--brand-color); }
+        .card { background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
+    </style>
+</head>
+<body class="py-10 px-4">
+
+    <div class="max-w-2xl mx-auto">
+        <div class="text-center mb-10">
+            <p class="text-[10px] font-bold text-[var(--brand-color)] tracking-[0.3em] uppercase mb-2">Guide Manual</p>
+            <h1 class="text-2xl md:text-3xl font-serif-jp font-bold text-gray-800 leading-tight">
+                LINE公式アカウント<br>
+                <span class="text-[var(--line-green)]">無料枠（月200通）</span>を<br>賢く使う運用ガイド
+            </h1>
+        </div>
+
+        <div class="space-y-6">
+            
+            <div class="card p-6 md:p-8">
+                <h2 class="text-lg font-bold flex items-center mb-4 text-gray-800">
+                    <i class="fas fa-exclamation-circle text-[var(--brand-color)] mr-2"></i>
+                    1. 料金プランの「壁」を知る
+                </h2>
+                <div class="space-y-3 text-sm text-gray-600 leading-relaxed">
+                    <p class="brand-border pl-3">無料プランで送れるのは、月に合計<strong>200通</strong>までです。</p>
+                    <p class="brand-border pl-3">「数百円でちょっと追加」はできません。</p>
+                    <p class="brand-border pl-3 text-red-500 font-bold">200通を超えたい場合は、月額5,000円（税別）のプランへのアップグレードが必要です。</p>
+                </div>
+            </div>
+
+            <div class="card p-6 md:p-8 border-t-4" style="border-color: var(--brand-color);">
+                <h2 class="text-lg font-bold flex items-center mb-4 text-gray-800">
+                    <i class="fas fa-users text-[var(--brand-color)] mr-2"></i>
+                    2. 100人規模での運用イメージ
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                    <div class="p-4 rounded-xl text-center" style="background-color: var(--brand-light);">
+                        <span class="text-xs text-gray-500 block mb-1">一斉配信（全員）</span>
+                        <span class="text-xl font-bold text-gray-700">月2回まで</span>
+                    </div>
+                    <div class="p-4 rounded-xl text-center" style="background-color: var(--brand-light);">
+                        <span class="text-xs text-gray-500 block mb-1">個別チャット（1対1）</span>
+                        <span class="text-xl font-bold text-[var(--line-green)]">無制限・無料</span>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-600 p-3 rounded-lg leading-relaxed border" style="border-color: var(--brand-light); background-color: #fafafa;">
+                    <strong>【結論】</strong> 予約受付や個別の相談がメインなら無料プランで十分です。月3回以上、全員に広告を送りたい場合は有料プランを検討しましょう。
+                </p>
+            </div>
+
+            <div class="card p-6 md:p-8 border-t-4 border-[var(--line-green)]">
+                <h2 class="text-lg font-bold flex items-center mb-6 text-gray-800">
+                    <i class="fas fa-lightbulb text-yellow-400 mr-2"></i>
+                    3. 無料枠をフル活用する5つのコツ
+                </h2>
+                
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <div class="w-8 h-8 rounded-full text-white flex-shrink-0 flex items-center justify-center font-bold" style="background-color: var(--brand-color);">1</div>
+                        <div>
+                            <h3 class="font-bold text-gray-800 mb-1">「無料機能」をメインに使う</h3>
+                            <p class="text-xs text-gray-500">個別チャット、あいさつメッセージ、自動応答はカウントされません。</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-8 h-8 rounded-full text-white flex-shrink-0 flex items-center justify-center font-bold" style="background-color: var(--brand-color);">2</div>
+                        <div>
+                            <h3 class="font-bold text-gray-800 mb-1">一斉配信は「月1〜2回」の重要通知のみ</h3>
+                            <p class="text-xs text-gray-500">店休日やキャンペーンなど、本当に大切なお知らせに絞ります。</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-8 h-8 rounded-full text-white flex-shrink-0 flex items-center justify-center font-bold" style="background-color: var(--brand-color);">3</div>
+                        <div>
+                            <h3 class="font-bold text-gray-800 mb-1">日常の発信は「LINE VOOM」へ</h3>
+                            <p class="text-xs text-gray-500">空き状況やスタイルの紹介は、無料で使い放題のタイムラインを活用。</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-8 h-8 rounded-full text-white flex-shrink-0 flex items-center justify-center font-bold" style="background-color: var(--brand-color);">4</div>
+                        <div>
+                            <h3 class="font-bold text-gray-800 mb-1">「相談専用ツール」と割り切る</h3>
+                            <p class="text-xs text-gray-500">販促ではなく、既存客との「繋がり用」として使うのが一番コスパが良いです。</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-8 h-8 rounded-full text-white flex-shrink-0 flex items-center justify-center font-bold" style="background-color: var(--brand-color);">5</div>
+                        <div>
+                            <h3 class="font-bold text-gray-800 mb-1">「絞り込み配信」を活用する</h3>
+                            <p class="text-xs text-gray-500">対象者だけ（例：女性限定など）に送ることで無駄な通数を抑えられます。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
